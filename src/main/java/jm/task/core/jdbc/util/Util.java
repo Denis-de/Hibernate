@@ -21,7 +21,7 @@ public class Util {
     private String PASSWORD = "genius201";
     private String DRIVER = "com.mysql.cj.jdbc.Driver";
 
-    private SessionFactory sessionFactory;
+  /*  private SessionFactory sessionFactory;
 
     public  SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
@@ -45,9 +45,9 @@ public class Util {
             }
         }
         return sessionFactory;
-    }
+    }*/
 
-   /* public Connection getConnection() throws ClassNotFoundException {
+    public Connection getConnection() throws ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = null;
         try {
@@ -65,5 +65,5 @@ public class Util {
             e.printStackTrace();
         }
         return connection;
-    }*/
+    }
 }
